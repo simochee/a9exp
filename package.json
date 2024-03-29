@@ -4,5 +4,19 @@
   "packageManager": "pnpm@9.0.0-beta.1+sha256.fba2e63d591308988fa66645c4f77d67aea9490c2a6c05f14b2b1154d207761e",
   "volta": {
     "node": "20.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@tsconfig/vite-react": "^3.0.2",
+    "@types/react-dom": "^18.2.23",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.7"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
