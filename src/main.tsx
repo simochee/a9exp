@@ -8,7 +8,7 @@ if (rootEl instanceof HTMLElement) {
 	const root = createRoot(rootEl);
 	root.render(
 		<StrictMode>
-			<p className="text-red-800 font-bold">Hello, World.</p>
+			<p className="font-bold text-red-800">Hello, World.</p>
 		</StrictMode>,
 	);
 }
